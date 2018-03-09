@@ -1,0 +1,174 @@
+<div class="container-fluid banner-top">
+    <div class="login-info">
+        <ul class="nav">
+                    <li class="nav-item"><a class="nav-link" href="">TÀI KHOẢN</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">ĐĂNG NHẬP</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">ĐĂNG KÝ</a></li>
+        </ul>
+    </div>
+    <div class="header-options">
+        <button class="play"><i class="fa fa-play-circle"></i></button>
+        <span [hidden]="lang==2"><img src="../assets/images/vn.png"></span>
+        <span [hidden]="lang==1"><img src="../assets/images/en.png"></span>
+        <select [(ngModel)]="lang">  
+            <option [value]="1">TIẾNG VIỆT</option>
+            <option [value]="2">ENGLISH</option>
+        </select>
+    </div>
+</div>
+<header>
+    <div class="logo">
+        <img src="../assets/images/logo.png">
+    </div>
+    <div class="row util-info">
+        <div class="util">
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-sitemap"></i> SITE MAP</a></li>
+                <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-reply-all"></i> WEBMAIL</a></li>
+                <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-location-arrow"></i> HỆ THỐNG CỬA HÀNG</a></li>
+            </ul>
+        </div>
+        <div class="cart">
+            <button><i class="fa fa-shopping-cart"></i></button>
+            <div class="quality-info">
+                <b>GIỎ:</b>0 sp - 0
+            </div>
+        </div>
+    </div>
+</header>
+<div class="container-fluid banner-menu">
+    <div class="main-menu">
+        <ul class="nav">
+            <li class="nav-item"><a class="nav-link active" href="#" routerLink="/home">TRANG CHỦ</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" routerLink="/intro">GIỚI THIỆU</a></li>
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle"  data-toggle="dropdown"  role="button" aria-haspopup="true" aria-expanded="false" href="#" routerLink="/products">SẢN PHẨM</a>
+                <div class="dropdown-menu">
+                <ul class="sub-menu">
+                    <li class="bg-text"><a class="nav-link" href="#">THỨC ĂN CHO HEO</a>
+                        <ul class="">
+                            <li class=""><a class="nav-link" href="#"><i class="fa fa-angle-right"></i> Thức ăn heo thịt</a>
+                                <ul class="">
+                                    <li class=""><a class="nav-link" href="#">Thức ăn hỗn hợp</a></li>
+                                    <li class=""><a class="nav-link" href="#">Đậm đặc</a></li>
+                                    <li class=""><a class="nav-link" href="#">Loại đặc biệt</a></li>
+                                </ul>
+                            </li>
+                            <li class=""><a class="nav-link" href="#"><i class="fa fa-angle-right"></i> Thức ăn heo sữa</a></li>
+                            <li class=""><a class="nav-link" href="#"><i class="fa fa-angle-right"></i> Thức ăn heo nái</a></li>
+                        </ul>
+                    </li>
+                    <li class="bg-text"><a class="nav-link" href="#">THỨC ĂN CHO GIA CẦM</a>
+                        <ul class="">
+                            <li class=""><a class="nav-link" href="#"><i class="fa fa-angle-right"></i>Thức ăn heo vit</a>
+                                <ul class="">
+                                    <li class=""><a class="nav-link" href="#">Thức ăn hỗn hợp</a></li>
+                                    <li class=""><a class="nav-link" href="#">Đậm đặc</a></li>
+                                    <li class=""><a class="nav-link" href="#">Loại đặc biệt</a></li>
+                                </ul>
+                            </li>
+                            <li class=""><a class="nav-link" href="#"><i class="fa fa-angle-right"></i>Thức ăn heo gà</a></li>
+                            <li class=""><a class="nav-link" href="#"><i class="fa fa-angle-right"></i>Thức ăn heo chim</a></li>
+                        </ul>
+                    </li>
+                    <li class="bg-text"><a class="nav-link" href="#">THỨC ĂN CHO CÁ</a>
+                        <ul class="">
+                            <li class=""><a class="nav-link" href="#"><i class="fa fa-angle-right"></i>Thức ăn heo vit</a>
+                                <ul class="">
+                                    <li class=""><a class="nav-link" href="#">Thức ăn hỗn hợp</a></li>
+                                    <li class=""><a class="nav-link" href="#">Đậm đặc</a></li>
+                                    <li class=""><a class="nav-link" href="#">Loại đặc biệt</a></li>
+                                </ul>
+                            </li>
+                            <li class=""><a class="nav-link" href="#"><i class="fa fa-angle-right"></i>Thức ăn heo gà</a></li>
+                            <li class=""><a class="nav-link" href="#"><i class="fa fa-angle-right"></i>Thức ăn heo chim</a></li>
+                        </ul>
+                        </li>
+                    <li class="bg-text"><a class="nav-link" href="#">THỨC ĂN CHO CÁ</a>
+                        <ul class="">
+                            <li class=""><a class="nav-link" href="#"><i class="fa fa-angle-right"></i>Thức ăn heo vit</a>
+                                <ul class="">
+                                    <li class=""><a class="nav-link" href="#">Thức ăn hỗn hợp</a></li>
+                                    <li class=""><a class="nav-link" href="#">Đậm đặc</a></li>
+                                    <li class=""><a class="nav-link" href="#">Loại đặc biệt</a></li>
+                                </ul>
+                            </li>
+                            <li class=""><a class="nav-link" href="#"><i class="fa fa-angle-right"></i>Thức ăn heo gà</a></li>
+                            <li class=""><a class="nav-link" href="#"><i class="fa fa-angle-right"></i>Thức ăn heo chim</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                </div>
+            </li>
+            <li class=""><a class="nav-link" href="#" routerLink="/recuitment">TUYỂN DỤNG</a></li>
+            <li class=""><a class="nav-link" href="#" routerLink="/pictures">HÌNH ẢNH</a></li>
+            <li class=""><a class="nav-link" href="#" routerLink="/news">TIN TỨC</a></li>
+            <li class=""><a class="nav-link" href="#" routerLink="/contacts">LIÊN HỆ</a></li>
+        </ul>
+    </div>
+    <div class="form-search">
+        <input type="search" placeholder="Tìm kiếm..."><button><i class="fa fa-angle-down"></i></button>
+        <button><i class="fa fa-search"></i></button>
+    </div>
+</div>
+<router-outlet></router-outlet>
+<footer class="footer"> 
+    <div class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-8">
+            <div class="row">
+                <div class="col-5">
+                    <div class="footer-logo">
+                                <div class="logo">
+                                    <img src="../assets/images/logo.png">
+                                </div>
+                                <div class="social-network">
+                                    <div class="title">MẠNG XÃ HỘI</div>
+                                    <span><a href="#"><i class="fa fa-facebook-f"></i></a></span>
+                                    <span><a href="#"><i class="fa fa-twitter"></i></a></span>
+                                    <span><a href="#"><i class="fa fa-linkedin"></i></a></span>
+                                    <span><a href="#"><i class="fa fa-pinterest-p"></i></a></span>
+                                    <span><a href="#"><i class="fa fa-google-plus"></i></a></span> 
+                                </div>
+                        </div>
+                </div>
+                <div class="col-7">
+                    <div class="footer-nav">
+                                <div class="row ">
+                                    <div class="item-product">
+                                        <div class="title">DANH MỤC SẢN PHẨM</div>
+                                        <ul class="">
+                                            <li><a href="">Thức ăn cho heo</a></li>
+                                            <li><a href="">Thức ăn cho gia cầm</a></li>
+                                            <li><a href="">Thức ăn cho cá</a></li>
+                                            <li><a href="">Thức ăn cho tôm</a></li>
+                                            <li><a href="">Dinh dưỡng khác</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="infomation">
+                                        <div class="title">THÔNG TIN</div>
+                                        <ul>
+                                            <li><a href="">Giới thiệu</a></li>
+                                            <li><a href="">Liên hệ</a></li>
+                                            <li><a href="">Chính sách</a></li>
+                                            <li><a href="">Quyền riêng tư</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="contacts">
+                                        <div class="title">LIÊN HỆ</div>
+                                        <ul>
+                                            <li><a href="">Giới thiệu</a></li>
+                                            <li><a href="">Liên hệ</a></li>
+                                            <li><a href="">Chính sách</a></li>
+                                            <li><a href="">Quyền riêng tư</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-2">
+        </div>
+    </div>
+</footer>
